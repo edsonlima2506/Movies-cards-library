@@ -1,89 +1,69 @@
-body {
-  background-color: whitesmoke;
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-.movie-card-header {
-  align-items: center;
-  background-color: #343a40;
-  display: flex;
-  height: 100px;
-  justify-content: center;
-}
-
-.page-title {
-  color: #f8f9fa;
-  font-size: 28px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.movie-list {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 48px 30px;
-}
-
-.movie-card {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
-  display: flex;
-  flex-direction: column;
-  height: 450px;
-  margin: 5px;
-  overflow: hidden;
-  width: 300px;
-}
-
-
-.movie-card-image {
-  width: 100%;
-}
-
-.movie-card-body {
-  flex: 1 1 auto;
-  padding: 20px;
-}
-
-.movie-card-title {
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0 0 12px;
-}
-
-.movie-card-subtitle {
-  color: #6c757d;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 0 0 8px;
-}
-
-.movie-card-storyline {
-  font-size: 14px;
-  text-align: justify;
-}
-
-.rating {
-  background-color: #007bff;
-  border-radius: 25px;
-  color: white;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 3px 9px;
-}
-
-.movie-card-rating {
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
-  display: flex;
-  justify-content: flex-end;
-  padding: 12px 20px;
-}
-
 header {
   background-color: #343a40;
   height: 70px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movieCard {
+  width: 400px;
+  margin: 20px;
+  background-color: white;
+}
+
+.movieImage {
+  width: 100%
+}
+
+.movieName {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px 0px 0px 10px;
+}
+
+.movieSubtitle {
+  margin-left: 10px;
+}
+
+.movieStoryline {
+  margin-left: 10px;
+  height: 100px;
+}
+
+.containRating {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(231, 229, 229);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.rating {
+  margin-right: 20px;
+  width: 40px;
+  height: 20px;
+  background-color: rgb(87, 87, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 800;
 }
