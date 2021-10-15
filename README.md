@@ -27,6 +27,12 @@
 
 3. Abra os arquivos em seu editor de texto
    * Utilize o comando `code .` 
+ 
+4. Baixe as dependencias do projeto
+   * Utilize o comando `npm install` 
+
+5. Inicie a visualização do projeto
+   * Utilize o comando `npm start` 
 
  <h1>💻 Tecnologias: </h1>
  
